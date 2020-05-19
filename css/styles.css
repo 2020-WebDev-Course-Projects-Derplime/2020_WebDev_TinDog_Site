@@ -133,3 +133,16 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* Fine tuning responsivity */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
